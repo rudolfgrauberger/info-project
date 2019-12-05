@@ -1,0 +1,22 @@
+{
+  "id" : "8515d5db-ca0e-356b-a64f-93b101e6cb94",
+  "request" : {
+    "url" : "/learning-outcome/learning-outcomes/4",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-learning-outcomes-4-hiCyc.json",
+    "headers" : {
+      "Date" : "Sun, 29 Jul 2018 19:26:24 GMT",
+      "Server" : "Apache/2.4.18 (Ubuntu)",
+      "X-Application-Context" : "api-gateway:prod:8080",
+      "Vary" : "Accept-Encoding",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Keep-Alive" : "timeout=5, max=88",
+      "Connection" : "Keep-Alive",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "8515d5db-ca0e-356b-a64f-93b101e6cb94"
+}

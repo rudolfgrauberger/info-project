@@ -1,0 +1,15 @@
+{
+  "_links": {
+    "learningOutcomes": {
+      "templated": true,
+      "href": "http://localhost:9999/learning-outcome/learning-outcomes{?page,size,sort,projection}"
+    },
+    "verbSuggestions": {
+      "templated": true,
+      "href": "http://localhost:9999/learning-outcome/verb-suggestions{?page,size,sort}"
+    },
+    "profile": {
+      "href": "http://localhost:9999/learning-outcome/profile"
+    }
+  }
+}

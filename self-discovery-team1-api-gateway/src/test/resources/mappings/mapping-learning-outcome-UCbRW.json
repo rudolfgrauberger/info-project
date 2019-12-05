@@ -1,0 +1,22 @@
+{
+  "id" : "2107b31d-e2d8-39f0-9636-a209c5a998cb",
+  "request" : {
+    "url" : "/learning-outcome",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-learning-outcome-UCbRW.json",
+    "headers" : {
+      "Date" : "Sun, 29 Jul 2018 19:26:23 GMT",
+      "Server" : "Apache/2.4.18 (Ubuntu)",
+      "X-Application-Context" : "api-gateway:prod:8080",
+      "Vary" : "Accept-Encoding",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Connection" : "Keep-Alive",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "2107b31d-e2d8-39f0-9636-a209c5a998cb"
+}

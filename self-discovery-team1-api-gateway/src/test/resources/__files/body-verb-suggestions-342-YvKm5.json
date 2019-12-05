@@ -1,0 +1,12 @@
+{
+  "name": "verwenden",
+  "taxonomyLevel": "LEVEL3",
+  "_links": {
+    "self": {
+      "href": "http://localhost:9999/learning-outcome/verb-suggestions/342"
+    },
+    "verbSuggestion": {
+      "href": "http://localhost:9999/learning-outcome/verb-suggestions/342"
+    }
+  }
+}

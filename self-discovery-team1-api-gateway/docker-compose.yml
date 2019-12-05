@@ -1,0 +1,55 @@
+version: '3'
+
+services:
+  backend-ms1:
+    image: self-discovery-team1-backend
+    container_name: team1-ms1
+    environment:
+      - SPRING_APPLICATION_NAME=ms1
+      - EUREKA_CLIENT_SERVICE_URL_DEFAULT_ZONE=http://sd:8761/eureka
+    links:
+      - service-discovery:sd
+    depends_on:
+      - service-discovery
+    networks: 
+      - team1-network
+
+  backend-ms2:
+    image: self-discovery-team1-backend
+    container_name: team1-ms2
+    environment:
+      - SPRING_APPLICATION_NAME=ms1
+      - EUREKA_CLIENT_SERVICE_URL_DEFAULT_ZONE=http://sd:8761/eureka
+    links:
+      - service-discovery:sd
+    depends_on:
+      - service-discovery
+    networks: 
+      - team1-network
+
+  service-discovery:
+    image: self-discovery-team1-service-discovery
+    container_name: team1-eureka
+    ports:
+      - 8761:8761
+    networks: 
+      -  team1-network
+
+  api-gateway:
+    image: self-discovery-team1-api-gateway
+    container_name: team1-api-gateway
+    environment:
+      - EUREKA_CLIENT_SERVICE_URL_DEFAULT_ZONE=http://sd:8761/eureka
+    links:
+      - service-discovery:sd
+    depends_on:
+      - service-discovery
+      - backend-ms1
+    ports:
+      - 8888:8888
+    networks: 
+      - team1-network
+
+networks:
+  team1-network:
+     external: true

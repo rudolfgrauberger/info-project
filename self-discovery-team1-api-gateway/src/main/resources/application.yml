@@ -1,0 +1,36 @@
+﻿server:
+  port: 8888
+
+spring:
+  application:
+    name: cloudGateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: false # Aktiviert/Deaktiviert die Default Autodiscovery von Spring Cloud gateway (ServiceID/...)
+          lower-case-service-id: true
+
+team1:
+  discovery:
+    locator:
+      enabled: true # Aktiviert/Deaktiviert die Default Autodiscovery von Spring Cloud gateway (ServiceID/...)
+  gateway:
+    entrypoint:
+      root:
+        enabled: true # Aktiviert den Root-Einstiegspunkt auf dem API-Gateway, in diesem werden alle Aggregate Roots der gerouteten Microservices aufgeführt.
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: false # Sorgt dafür, dass das Gateway nicht als Client in der Eureka-Liste aufgeführt wird
+
+
+
+# Sorgt dafür, dass ca. 19 Endpunkte über das actuator zur Verfügung gestellt werden
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

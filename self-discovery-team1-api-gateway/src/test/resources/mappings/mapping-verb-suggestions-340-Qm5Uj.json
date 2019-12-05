@@ -1,0 +1,22 @@
+{
+  "id" : "d903ef8e-75fc-32be-921f-62b2b491f036",
+  "request" : {
+    "url" : "/learning-outcome/verb-suggestions/340",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-verb-suggestions-340-Qm5Uj.json",
+    "headers" : {
+      "Date" : "Sun, 29 Jul 2018 19:26:24 GMT",
+      "Server" : "Apache/2.4.18 (Ubuntu)",
+      "X-Application-Context" : "api-gateway:prod:8080",
+      "Vary" : "Accept-Encoding",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Keep-Alive" : "timeout=5, max=83",
+      "Connection" : "Keep-Alive",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "d903ef8e-75fc-32be-921f-62b2b491f036"
+}

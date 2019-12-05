@@ -1,0 +1,437 @@
+{
+  "_embedded": {
+    "learningOutcomes": [
+      {
+        "title": "Kompetenzprofil der Veranstaltung ST1",
+        "abilities": [
+          {
+            "sentenceWithoutVerb": "den grundlegenden Architekturstil des Gesamtsystanalysierenems",
+            "verb": {
+              "name": "analysieren",
+              "taxonomyLevel": "LEVEL4"
+            }
+          }
+        ],
+        "complexAbility": {
+          "businessGoal": "das entsprechende IT-System im Team in nachhaltiger technischer \u0026 fachlicher Qualität teil- /gesamtverantwortlich umsetzen kann.",
+          "roles": [
+            {
+              "name": "Softwarearchitekt"
+            }
+          ],
+          "_links": {
+            "knowledgePreconditions": {
+              "templated": true,
+              "href": "http://localhost:9999/learning-outcome/learning-outcomes/2{?projection}"
+            },
+            "subAbilities": {
+              "templated": true,
+              "href": "http://localhost:9999/learning-outcome/learning-outcomes/3{?projection}"
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/4"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/4{?projection}"
+          }
+        }
+      },
+      {
+        "title": "Precondition",
+        "abilities": [
+          {
+            "sentenceWithoutVerb": "Die ist eine Precondition",
+            "verb": {
+              "name": "beschreiben",
+              "taxonomyLevel": "LEVEL3"
+            }
+          }
+        ],
+        "complexAbility": {
+          "businessGoal": "",
+          "roles": []
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/2"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/2{?projection}"
+          }
+        }
+      },
+      {
+        "title": "TEST (Jann) Review",
+        "abilities": [
+          {
+            "sentenceWithoutVerb": "mit Modellen Software",
+            "verb": {
+              "name": "beschreiben",
+              "taxonomyLevel": "LEVEL2"
+            }
+          },
+          {
+            "sentenceWithoutVerb": "mit UML Fachlichkeit",
+            "verb": {
+              "name": "analysieren",
+              "taxonomyLevel": "LEVEL4"
+            }
+          }
+        ],
+        "complexAbility": {
+          "businessGoal": "ein toller Softwarearchitekt bin",
+          "roles": [
+            {
+              "name": "Softwarearchitekt"
+            }
+          ],
+          "_links": {
+            "knowledgePreconditions": {
+              "templated": true,
+              "href": "http://localhost:9999/learning-outcome/learning-outcomes/2{?projection}"
+            },
+            "subAbilities": {
+              "templated": true,
+              "href": "http://localhost:9999/learning-outcome/learning-outcomes/3{?projection}"
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/195"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/195{?projection}"
+          }
+        }
+      },
+      {
+        "title": "Bla",
+        "abilities": [],
+        "complexAbility": {
+          "businessGoal": "",
+          "roles": []
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/256"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/256{?projection}"
+          }
+        }
+      },
+      {
+        "title": "Neues LearningOutcome1",
+        "abilities": [],
+        "complexAbility": {
+          "businessGoal": "",
+          "roles": []
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/266"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/266{?projection}"
+          }
+        }
+      },
+      {
+        "title": "SubAbility",
+        "abilities": [
+          {
+            "sentenceWithoutVerb": "eine Subability",
+            "verb": {
+              "name": "verwenden",
+              "taxonomyLevel": "LEVEL3"
+            }
+          }
+        ],
+        "complexAbility": {
+          "businessGoal": "",
+          "roles": []
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/3"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/3{?projection}"
+          }
+        }
+      },
+      {
+        "title": "Neues LearningOutcome3",
+        "abilities": [],
+        "complexAbility": {
+          "businessGoal": "",
+          "roles": []
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/268"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/268{?projection}"
+          }
+        }
+      },
+      {
+        "title": "Neues LearningOutcome4",
+        "abilities": [],
+        "complexAbility": {
+          "businessGoal": "",
+          "roles": []
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/270"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/270{?projection}"
+          }
+        }
+      },
+      {
+        "title": "Neues LearningOutcome5",
+        "abilities": [],
+        "complexAbility": {
+          "businessGoal": "",
+          "roles": []
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/272"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/272{?projection}"
+          }
+        }
+      },
+      {
+        "title": "Neues LearningOutcome7",
+        "abilities": [],
+        "complexAbility": {
+          "businessGoal": "",
+          "roles": []
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/274"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/274{?projection}"
+          }
+        }
+      },
+      {
+        "title": "Neues LearningOutcome8",
+        "abilities": [],
+        "complexAbility": {
+          "businessGoal": "",
+          "roles": []
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/276"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/276{?projection}"
+          }
+        }
+      },
+      {
+        "title": "Neues LearningOutcome9",
+        "abilities": [],
+        "complexAbility": {
+          "businessGoal": "",
+          "roles": []
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/278"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/278{?projection}"
+          }
+        }
+      },
+      {
+        "title": "Neues LearningOutcome10",
+        "abilities": [],
+        "complexAbility": {
+          "businessGoal": "",
+          "roles": []
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/280"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/280{?projection}"
+          }
+        }
+      },
+      {
+        "title": "Neues LearningOutcome11",
+        "abilities": [],
+        "complexAbility": {
+          "businessGoal": "",
+          "roles": []
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/282"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/282{?projection}"
+          }
+        }
+      },
+      {
+        "title": "Neues LearningOutcome12",
+        "abilities": [],
+        "complexAbility": {
+          "businessGoal": "",
+          "roles": []
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/284"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/284{?projection}"
+          }
+        }
+      },
+      {
+        "title": "Neues LearningOutcome13",
+        "abilities": [],
+        "complexAbility": {
+          "businessGoal": "",
+          "roles": []
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/286"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/286{?projection}"
+          }
+        }
+      },
+      {
+        "title": "Neues LearningOutcome14",
+        "abilities": [],
+        "complexAbility": {
+          "businessGoal": "",
+          "roles": []
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/288"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/288{?projection}"
+          }
+        }
+      },
+      {
+        "title": "Neues LearningOutcome15",
+        "abilities": [],
+        "complexAbility": {
+          "businessGoal": "",
+          "roles": []
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/290"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/290{?projection}"
+          }
+        }
+      },
+      {
+        "title": "Neues LearningOutcome16 ",
+        "abilities": [],
+        "complexAbility": {
+          "businessGoal": "",
+          "roles": []
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/292"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/292{?projection}"
+          }
+        }
+      },
+      {
+        "title": "Neues LearningOutcome17",
+        "abilities": [],
+        "complexAbility": {
+          "businessGoal": "",
+          "roles": []
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/294"
+          },
+          "learningOutcome": {
+            "templated": true,
+            "href": "http://localhost:9999/learning-outcome/learning-outcomes/294{?projection}"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "first": {
+      "href": "http://localhost:9999/learning-outcome/learning-outcomes?page\u003d0\u0026size\u003d20"
+    },
+    "self": {
+      "templated": true,
+      "href": "http://localhost:9999/learning-outcome/learning-outcomes{?page,size,sort,projection}"
+    },
+    "next": {
+      "href": "http://localhost:9999/learning-outcome/learning-outcomes?page\u003d1\u0026size\u003d20"
+    },
+    "last": {
+      "href": "http://localhost:9999/learning-outcome/learning-outcomes?page\u003d1\u0026size\u003d20"
+    },
+    "profile": {
+      "href": "http://localhost:9999/learning-outcome/profile/learning-outcomes"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 22,
+    "totalPages": 2,
+    "number": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Neues LearningOutcome12",
+  "abilities": [],
+  "complexAbility": {
+    "businessGoal": "",
+    "roles": []
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:9999/learning-outcome/learning-outcomes/284"
+    },
+    "learningOutcome": {
+      "templated": true,
+      "href": "http://localhost:9999/learning-outcome/learning-outcomes/284{?projection}"
+    }
+  }
+}

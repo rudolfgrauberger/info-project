@@ -1,0 +1,13 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://localhost:9999/learning-outcome/profile"
+    },
+    "learningOutcomes": {
+      "href": "http://localhost:9999/learning-outcome/profile/learning-outcomes"
+    },
+    "verbSuggestions": {
+      "href": "http://localhost:9999/learning-outcome/profile/verb-suggestions"
+    }
+  }
+}

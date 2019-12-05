@@ -1,0 +1,46 @@
+{
+  "title": "TEST (Jann) Review",
+  "abilities": [
+    {
+      "sentenceWithoutVerb": "mit Modellen Software",
+      "verb": {
+        "name": "beschreiben",
+        "taxonomyLevel": "LEVEL2"
+      }
+    },
+    {
+      "sentenceWithoutVerb": "mit UML Fachlichkeit",
+      "verb": {
+        "name": "analysieren",
+        "taxonomyLevel": "LEVEL4"
+      }
+    }
+  ],
+  "complexAbility": {
+    "businessGoal": "ein toller Softwarearchitekt bin",
+    "roles": [
+      {
+        "name": "Softwarearchitekt"
+      }
+    ],
+    "_links": {
+      "knowledgePreconditions": {
+        "templated": true,
+        "href": "http://localhost:9999/learning-outcome/learning-outcomes/2{?projection}"
+      },
+      "subAbilities": {
+        "templated": true,
+        "href": "http://localhost:9999/learning-outcome/learning-outcomes/3{?projection}"
+      }
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:9999/learning-outcome/learning-outcomes/195"
+    },
+    "learningOutcome": {
+      "templated": true,
+      "href": "http://localhost:9999/learning-outcome/learning-outcomes/195{?projection}"
+    }
+  }
+}

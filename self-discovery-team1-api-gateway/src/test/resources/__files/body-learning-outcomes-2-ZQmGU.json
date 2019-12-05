@@ -1,0 +1,25 @@
+{
+  "title": "Precondition",
+  "abilities": [
+    {
+      "sentenceWithoutVerb": "Die ist eine Precondition",
+      "verb": {
+        "name": "beschreiben",
+        "taxonomyLevel": "LEVEL3"
+      }
+    }
+  ],
+  "complexAbility": {
+    "businessGoal": "",
+    "roles": []
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:9999/learning-outcome/learning-outcomes/2"
+    },
+    "learningOutcome": {
+      "templated": true,
+      "href": "http://localhost:9999/learning-outcome/learning-outcomes/2{?projection}"
+    }
+  }
+}

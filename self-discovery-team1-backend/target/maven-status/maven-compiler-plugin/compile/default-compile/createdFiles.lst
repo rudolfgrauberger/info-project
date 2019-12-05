@@ -1,0 +1,4 @@
+wg/hub/Main.class
+wg/hub/Entity/Student.class
+wg/hub/Controller/StudentController.class
+wg/hub/ServiceInstanceRestController.class

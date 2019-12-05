@@ -1,0 +1,139 @@
+{
+  "alps" : {
+    "version" : "1.0",
+    "descriptors" : [ {
+      "id" : "learningOutcome-representation",
+      "href" : "http://localhost:9999/learning-outcome/profile/learning-outcomes",
+      "descriptors" : [ {
+        "name" : "title",
+        "type" : "SEMANTIC"
+      }, {
+        "name" : "abilities",
+        "type" : "SEMANTIC"
+      } ]
+    }, {
+      "id" : "create-learningOutcomes",
+      "name" : "learningOutcomes",
+      "type" : "UNSAFE",
+      "rt" : "#learningOutcome-representation"
+    }, {
+      "id" : "get-learningOutcomes",
+      "name" : "learningOutcomes",
+      "type" : "SAFE",
+      "rt" : "#learningOutcome-representation",
+      "descriptors" : [ {
+        "name" : "page",
+        "doc" : {
+          "value" : "The page to return.",
+          "format" : "TEXT"
+        },
+        "type" : "SEMANTIC"
+      }, {
+        "name" : "size",
+        "doc" : {
+          "value" : "The size of the page to return.",
+          "format" : "TEXT"
+        },
+        "type" : "SEMANTIC"
+      }, {
+        "name" : "sort",
+        "doc" : {
+          "value" : "The sorting criteria to use to calculate the content of the page.",
+          "format" : "TEXT"
+        },
+        "type" : "SEMANTIC"
+      }, {
+        "name" : "projection",
+        "doc" : {
+          "value" : "The projection that shall be applied when rendering the response. Acceptable values available in nested descriptors.",
+          "format" : "TEXT"
+        },
+        "type" : "SEMANTIC",
+        "descriptors" : [ {
+          "name" : "noAbilityDefinitions",
+          "type" : "SEMANTIC",
+          "descriptors" : [ {
+            "name" : "title",
+            "type" : "SEMANTIC"
+          }, {
+            "name" : "complexAbility",
+            "type" : "SEMANTIC"
+          } ]
+        }, {
+          "name" : "onlyTitle",
+          "type" : "SEMANTIC",
+          "descriptors" : [ {
+            "name" : "title",
+            "type" : "SEMANTIC"
+          } ]
+        }, {
+          "name" : "noComplexAbility",
+          "type" : "SEMANTIC",
+          "descriptors" : [ {
+            "name" : "title",
+            "type" : "SEMANTIC"
+          }, {
+            "name" : "abilities",
+            "type" : "SEMANTIC"
+          } ]
+        } ]
+      } ]
+    }, {
+      "id" : "update-learningOutcome",
+      "name" : "learningOutcome",
+      "type" : "IDEMPOTENT",
+      "rt" : "#learningOutcome-representation"
+    }, {
+      "id" : "delete-learningOutcome",
+      "name" : "learningOutcome",
+      "type" : "IDEMPOTENT",
+      "rt" : "#learningOutcome-representation"
+    }, {
+      "id" : "get-learningOutcome",
+      "name" : "learningOutcome",
+      "type" : "SAFE",
+      "rt" : "#learningOutcome-representation",
+      "descriptors" : [ {
+        "name" : "projection",
+        "doc" : {
+          "value" : "The projection that shall be applied when rendering the response. Acceptable values available in nested descriptors.",
+          "format" : "TEXT"
+        },
+        "type" : "SEMANTIC",
+        "descriptors" : [ {
+          "name" : "noAbilityDefinitions",
+          "type" : "SEMANTIC",
+          "descriptors" : [ {
+            "name" : "title",
+            "type" : "SEMANTIC"
+          }, {
+            "name" : "complexAbility",
+            "type" : "SEMANTIC"
+          } ]
+        }, {
+          "name" : "onlyTitle",
+          "type" : "SEMANTIC",
+          "descriptors" : [ {
+            "name" : "title",
+            "type" : "SEMANTIC"
+          } ]
+        }, {
+          "name" : "noComplexAbility",
+          "type" : "SEMANTIC",
+          "descriptors" : [ {
+            "name" : "title",
+            "type" : "SEMANTIC"
+          }, {
+            "name" : "abilities",
+            "type" : "SEMANTIC"
+          } ]
+        } ]
+      } ]
+    }, {
+      "id" : "patch-learningOutcome",
+      "name" : "learningOutcome",
+      "type" : "UNSAFE",
+      "rt" : "#learningOutcome-representation"
+    } ]
+  }
+}

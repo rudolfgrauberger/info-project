@@ -1,0 +1,22 @@
+{
+  "id" : "b80d9be6-f32e-374e-9c59-a67404de0873",
+  "request" : {
+    "url" : "/learning-outcome/learning-outcomes/294",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-learning-outcomes-294-JGX2h.json",
+    "headers" : {
+      "Date" : "Sun, 29 Jul 2018 19:26:23 GMT",
+      "Server" : "Apache/2.4.18 (Ubuntu)",
+      "X-Application-Context" : "api-gateway:prod:8080",
+      "Vary" : "Accept-Encoding",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Keep-Alive" : "timeout=5, max=89",
+      "Connection" : "Keep-Alive",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "b80d9be6-f32e-374e-9c59-a67404de0873"
+}

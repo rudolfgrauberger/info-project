@@ -1,0 +1,22 @@
+{
+  "id" : "c1a8915e-bee8-3756-be20-e4b6c6287880",
+  "request" : {
+    "url" : "/learning-outcome/learning-outcomes/195",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-learning-outcomes-195-UNZLV.json",
+    "headers" : {
+      "Date" : "Sun, 29 Jul 2018 19:26:23 GMT",
+      "Server" : "Apache/2.4.18 (Ubuntu)",
+      "X-Application-Context" : "api-gateway:prod:8080",
+      "Vary" : "Accept-Encoding",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Keep-Alive" : "timeout=5, max=91",
+      "Connection" : "Keep-Alive",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "c1a8915e-bee8-3756-be20-e4b6c6287880"
+}

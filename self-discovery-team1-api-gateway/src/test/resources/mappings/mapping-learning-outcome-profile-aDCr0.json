@@ -1,0 +1,22 @@
+{
+  "id" : "11d6c0ca-a159-3407-9c4f-85d2fb5c24dc",
+  "request" : {
+    "url" : "/learning-outcome/profile",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-learning-outcome-profile-aDCr0.json",
+    "headers" : {
+      "Date" : "Sun, 29 Jul 2018 19:26:23 GMT",
+      "Server" : "Apache/2.4.18 (Ubuntu)",
+      "X-Application-Context" : "api-gateway:prod:8080",
+      "Vary" : "Accept-Encoding",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Keep-Alive" : "timeout=5, max=98",
+      "Connection" : "Keep-Alive",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "11d6c0ca-a159-3407-9c4f-85d2fb5c24dc"
+}

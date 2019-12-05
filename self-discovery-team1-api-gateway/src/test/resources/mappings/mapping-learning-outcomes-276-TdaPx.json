@@ -1,0 +1,22 @@
+{
+  "id" : "d228c03e-848f-369e-9ed6-bcab73d01cb7",
+  "request" : {
+    "url" : "/learning-outcome/learning-outcomes/276",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-learning-outcomes-276-TdaPx.json",
+    "headers" : {
+      "Date" : "Sun, 29 Jul 2018 19:26:24 GMT",
+      "Server" : "Apache/2.4.18 (Ubuntu)",
+      "X-Application-Context" : "api-gateway:prod:8080",
+      "Vary" : "Accept-Encoding",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Keep-Alive" : "timeout=5, max=82",
+      "Connection" : "Keep-Alive",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "d228c03e-848f-369e-9ed6-bcab73d01cb7"
+}

@@ -1,0 +1,22 @@
+{
+  "id" : "f1b879f8-2d69-35e7-b520-8b7587775f4f",
+  "request" : {
+    "url" : "/learning-outcome/profile/verb-suggestions",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-profile-verb-suggestions-8u5gf.txt",
+    "headers" : {
+      "Date" : "Sun, 29 Jul 2018 19:26:23 GMT",
+      "Server" : "Apache/2.4.18 (Ubuntu)",
+      "X-Application-Context" : "api-gateway:prod:8080",
+      "Vary" : "Accept-Encoding",
+      "Content-Type" : "text/plain;charset=UTF-8",
+      "Keep-Alive" : "timeout=5, max=94",
+      "Connection" : "Keep-Alive",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "f1b879f8-2d69-35e7-b520-8b7587775f4f"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "beschreiben",
+  "taxonomyLevel": "LEVEL3",
+  "_links": {
+    "self": {
+      "href": "http://localhost:9999/learning-outcome/verb-suggestions/343"
+    },
+    "verbSuggestion": {
+      "href": "http://localhost:9999/learning-outcome/verb-suggestions/343"
+    }
+  }
+}

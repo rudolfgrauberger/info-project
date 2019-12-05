@@ -1,0 +1,22 @@
+{
+  "id" : "65ee6e77-855f-3ecd-9ed3-28ddd99e9417",
+  "request" : {
+    "url" : "/learning-outcome/profile/learning-outcomes",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-profile-learning-outcomes-Ifwoy.txt",
+    "headers" : {
+      "Date" : "Sun, 29 Jul 2018 19:26:24 GMT",
+      "Server" : "Apache/2.4.18 (Ubuntu)",
+      "X-Application-Context" : "api-gateway:prod:8080",
+      "Vary" : "Accept-Encoding",
+      "Content-Type" : "text/plain;charset=UTF-8",
+      "Keep-Alive" : "timeout=5, max=78",
+      "Connection" : "Keep-Alive",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "65ee6e77-855f-3ecd-9ed3-28ddd99e9417"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "analysieren",
+  "taxonomyLevel": "LEVEL4",
+  "_links": {
+    "self": {
+      "href": "http://localhost:9999/learning-outcome/verb-suggestions/340"
+    },
+    "verbSuggestion": {
+      "href": "http://localhost:9999/learning-outcome/verb-suggestions/340"
+    }
+  }
+}

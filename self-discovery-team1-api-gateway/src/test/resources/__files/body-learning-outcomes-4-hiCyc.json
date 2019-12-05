@@ -1,0 +1,39 @@
+{
+  "title": "Kompetenzprofil der Veranstaltung ST1",
+  "abilities": [
+    {
+      "sentenceWithoutVerb": "den grundlegenden Architekturstil des Gesamtsystanalysierenems",
+      "verb": {
+        "name": "analysieren",
+        "taxonomyLevel": "LEVEL4"
+      }
+    }
+  ],
+  "complexAbility": {
+    "businessGoal": "das entsprechende IT-System im Team in nachhaltiger technischer \u0026 fachlicher Qualität teil- /gesamtverantwortlich umsetzen kann.",
+    "roles": [
+      {
+        "name": "Softwarearchitekt"
+      }
+    ],
+    "_links": {
+      "knowledgePreconditions": {
+        "templated": true,
+        "href": "http://localhost:9999/learning-outcome/learning-outcomes/2{?projection}"
+      },
+      "subAbilities": {
+        "templated": true,
+        "href": "http://localhost:9999/learning-outcome/learning-outcomes/3{?projection}"
+      }
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:9999/learning-outcome/learning-outcomes/4"
+    },
+    "learningOutcome": {
+      "templated": true,
+      "href": "http://localhost:9999/learning-outcome/learning-outcomes/4{?projection}"
+    }
+  }
+}
